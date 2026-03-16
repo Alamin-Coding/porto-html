@@ -25,10 +25,32 @@ ol,
 li {
 	list-style: none;
 }
+button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
 .container {
 	max-width: 1450px;
 	padding: 0 15px;
 	margin: 0 auto;
+}
+.section_header {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.section_header h2 {
+	color: #0a0201;
+	font-size: 38px;
+	line-height: 1;
+	font-weight: 500;
+}
+.section_header p {
+	color: #777777;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: -0.24px;
 }
 /* All Common styles end */
 
@@ -326,6 +348,235 @@ nav {
 }
 /* =================================
     Hero section end
+================================== */
+
+/* =================================
+    Expert Solution section start
+================================== */
+.expert_solution {
+	padding-top: 148px;
+	padding-bottom: 48px;
+	background: #ffffff;
+}
+
+.expert_solution_grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.expert_card {
+	background: #ffffff;
+	/* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+	border-radius: 16px;
+	border-radius: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	padding: 32px 32px 48px;
+	transition: all linear 0.3s;
+	position: relative;
+	overflow: hidden;
+}
+.expert_card .card_shape {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 90px;
+	height: 90px;
+	z-index: 10;
+}
+/* .expert_card:hover {
+	background: #2e5c89;
+} */
+
+.expert_card .text h3 {
+	color: #0a0201;
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+.expert_card .text p {
+	color: #777777;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-top: 18px;
+	padding-bottom: 23px;
+}
+
+.learn_more {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.expert_card .text a {
+	color: #2e5c89;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.learn_more button {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #2e5c89;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all linear 0.3s;
+	cursor: pointer;
+}
+/* =================================
+    Expert Solution section end
+================================== */
+
+/* =================================
+    Counter section start
+================================== */
+.counter {
+	padding: 40px 0;
+	background: #ffffff;
+}
+.counter_container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.counter_box {
+	text-align: center;
+	padding: 25px;
+}
+.counter_box h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	color: #0a0201;
+	font-size: 64px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+.counter_box p {
+	color: #777777;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* =================================
+    Counter section end
+================================== */
+
+/* =================================
+    Our Services section start
+================================== */
+.our_services {
+	padding: 60px 0;
+	background: #123440;
+}
+.service_header {
+}
+.service_header h4 {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 14px;
+	left: 1;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 11px 24px;
+	border-radius: 1000px;
+	border: rgba(255, 255, 255, 0.2) 1px solid;
+}
+.title_and_button {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+}
+.title_and_button h2 {
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: 500;
+	list-style: 1;
+	margin-top: 16px;
+}
+.title_and_button h2 span {
+	color: #acd7f4;
+}
+.title_and_button a {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 11px 24px;
+	border-radius: 1000px;
+	background: #2e5c89;
+	transition: all linear 0.3s;
+}
+.title_and_button a:hover {
+	background: #f2bc03;
+}
+.service_container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 24px;
+	margin-top: 48px;
+}
+.service_container .service_box {
+	height: 130px;
+	background: #acd7f4;
+	display: grid;
+	grid-template-columns: 310px 1fr;
+}
+.service_box {
+	overflow: hidden;
+	border-radius: 16px;
+}
+.service_box .image {
+	/* border-right: 30px solid #ffffff; */
+	/* border-radius: 0 167.5px 167.5px 0; */
+	position: relative;
+	overflow: hidden;
+}
+.service_box .image::after {
+	content: "";
+	width: 390px;
+	height: 280px;
+	border-radius: 167.5px;
+	border: 30px solid #ffffff;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	z-index: 10;
+}
+.service_box .image img {
+	width: 100%;
+	border-radius: 0 167.5px 167.5px 0;
+}
+.service_box .text {
+	padding: 20px 31px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+}
+.service_box .text h3 {
+	color: #0a0201;
+	font-size: 23px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+.service_box .text a {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+	background: #123440;
+	border-radius: 50%;
+	transition: all linear 0.3s;
+}
+
+/* =================================
+    Our Services section end
 ================================== */
 
 /* =================================
