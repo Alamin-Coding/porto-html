@@ -39,6 +39,17 @@ button {
 	text-align: center;
 	padding-bottom: 40px;
 }
+.section_header h4 {
+	color: #0a0201;
+	font-size: 10px;
+	line-height: 1;
+	font-weight: 600;
+	padding: 11px 24px;
+	border-radius: 1000px;
+	border: 1px solid #e7e7e7;
+	display: inline-block;
+	margin-bottom: 16px;
+}
 .section_header h2 {
 	color: #0a0201;
 	font-size: 38px;
@@ -51,6 +62,18 @@ button {
 	font-weight: 400;
 	line-height: 28px;
 	letter-spacing: -0.24px;
+}
+.common_btn {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 11px 24px;
+	border-radius: 1000px;
+	background: #2e5c89;
+	transition: all linear 0.3s;
+}
+.common_btn:hover {
+	background: #f2bc03;
 }
 /* All Common styles end */
 
@@ -579,6 +602,124 @@ nav {
     Our Services section end
 ================================== */
 
+/* =================================
+    Additional Services section start
+================================== */
+.additional_services {
+	padding-top: 64px;
+	padding-bottom: 129px;
+}
+.additional_service_content {
+	padding-top: 108px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+}
+.additional_service_content .right ul {
+}
+.additional_service_content .right ul li {
+	display: grid;
+	grid-template-columns: 1fr 35px;
+	align-items: center;
+	gap: 10px;
+	padding: 24px 32px;
+}
+.additional_service_content .right ul li p {
+	color: #0a0201;
+	font-size: 21px;
+	line-height: 31px;
+	font-weight: 600;
+}
+.additional_service_content .right ul li button {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f4f4f4;
+}
+.additional_service_btn {
+	margin-left: 32px;
+	margin-top: 24px;
+}
+/* =================================
+    Additional Services section end
+================================== */
+
+/* =================================
+    Real People section start
+================================== */
+.real_people {
+	padding: 80px 0;
+	background: rgba(242, 186, 3, 0.1);
+}
+.real_people .section_header {
+	max-width: 915px;
+	margin: 0 auto;
+}
+.real_people .section_header p {
+	padding-top: 18px;
+}
+.real_people_content {
+}
+.people_grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+.people_grid .people {
+	border-radius: 20px;
+	overflow: hidden;
+}
+.people_grid .people img {
+	width: 100%;
+	height: 415px;
+	object-fit: cover;
+}
+.real_people_content .footer {
+	text-align: center;
+	padding-top: 63px;
+}
+.real_people_content .footer p {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+}
+/* =================================
+    Real People section end
+================================== */
+
+/* =================================
+    Brand Logo section start
+================================== */
+.brand_logo {
+	padding: 88px 0 92px 0;
+}
+.brand_grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	align-items: center;
+	gap: 5px;
+}
+.brand_grid .brand_image {
+	cursor: pointer;
+}
+.brand_grid .brand_image img {
+	opacity: 20%;
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	transition: all linear 0.3s;
+}
+.brand_grid .brand_image:hover img {
+	opacity: 100%;
+}
+/* =================================
+    Brand Logo section end
+================================== */
 /* =================================
      section start
 ================================== */
