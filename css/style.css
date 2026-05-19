@@ -212,6 +212,9 @@ nav {
 .text_container .right_side .free_quote:hover {
 	background: #0a0201;
 }
+.only_mobile {
+	display: none;
+}
 /* =================================
     Header section end
 ================================== */

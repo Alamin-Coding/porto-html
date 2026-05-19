@@ -1,0 +1,397 @@
+@media (max-width: 991px) {
+	nav {
+		padding: 12px 0;
+	}
+	.main_header {
+		grid-template-columns: auto auto;
+	}
+	.menu_list {
+		display: none;
+	}
+	.right_btns {
+		display: none;
+	}
+	.only_mobile {
+		display: inline-block;
+		cursor: pointer;
+		padding: 5px;
+		font-size: 30px;
+	}
+}
+@media (max-width: 575px) {
+	.text_container .left_side h2 {
+		font-size: 26px;
+	}
+	.text_container {
+		grid-template-columns: 1fr;
+		justify-content: start;
+		gap: 20px;
+	}
+	.header_bottom_text {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.text_container h2 .image {
+		width: 53px;
+		height: 53px;
+		border-radius: 15px;
+	}
+
+	/* Bannar part */
+	.hero {
+		padding-top: 120px;
+	}
+	.hero_content .top {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.bottom .steps {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	/*  Expert Tax Solutions Start  */
+	.expert_solution {
+		padding-top: 100px;
+	}
+	.expert_solution_grid {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 24px;
+	}
+
+	/*  Counters Section Start  */
+	.counter_container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 24px;
+	}
+	.title_and_button h2 {
+		font-size: 30px;
+	}
+	.service_container .service_box {
+		height: 130px;
+		grid-template-columns: 260px 1fr;
+	}
+	.service_box .image img {
+		height: 100%;
+		object-fit: cover;
+	}
+	/*  Additional service section  */
+	.section_header h2 {
+		font-size: 30px;
+	}
+	.additional_service_content {
+		padding-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 24px;
+	}
+	.additional_service_content .left img {
+		width: 100%;
+	}
+	.additional_service_content .right ul li {
+		padding: 16px;
+	}
+
+	/*  Created by Real People Section  */
+	.people_grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	/* Brand logo */
+	.brand_grid {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 26px;
+	}
+	.brand_logo {
+		padding: 50px 0 50px 0;
+	}
+
+	/*  Clients section  */
+	.stars {
+		display: none;
+	}
+	.clients_grid {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.client_text p {
+		font-size: 16px;
+	}
+	.client_item {
+		grid-template-columns: 1fr;
+	}
+	.client_image {
+		width: 180px;
+		height: 180px;
+	}
+	.quote {
+		width: 50px;
+		height: 50px;
+	}
+
+	/*  Our Insights section  */
+	.insights_container {
+		gap: 40px;
+		flex-wrap: wrap;
+	}
+	.cards_grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.sidebar {
+		flex: 1;
+	}
+
+	/* footer part */
+	footer {
+		padding-top: 60px;
+	}
+	.footer_content {
+		grid-template-columns: 1fr;
+		justify-content: start;
+	}
+	.footer_content .left_side h2 {
+		font-size: 30px;
+	}
+	.footer_content .right_side ul li a {
+		font-size: 18px;
+	}
+	.footer_grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	footer .copy {
+		grid-template-columns: 1fr;
+		gap: 9px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.text_container .left_side h2 {
+		font-size: 26px;
+	}
+	.text_container {
+		grid-template-columns: 1fr;
+		justify-content: start;
+		gap: 20px;
+	}
+	.header_bottom_text {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.text_container h2 .image {
+		width: 72px;
+		height: 47px;
+		border-radius: 16px;
+	}
+
+	/* Bannar part */
+	.hero {
+		padding-top: 150px;
+	}
+	.hero_content .top {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.bottom .steps {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/*  Counters Section Start  */
+	.counter_box {
+		padding: 0px;
+	}
+	.counter_box h2 {
+		font-size: 42px;
+	}
+
+	/*  Additional service section  */
+	.section_header h2 {
+		font-size: 30px;
+	}
+	.additional_service_content {
+		padding-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 24px;
+	}
+	.additional_service_content .left img {
+		width: 100%;
+	}
+	.additional_service_content .right ul li {
+		padding: 16px;
+	}
+
+	/*  Created by Real People Section  */
+	.people_grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/* Brand logo */
+	.brand_logo {
+		padding: 50px 0 50px 0;
+	}
+
+	/*  Clients section  */
+	.stars {
+		display: none;
+	}
+	.clients_grid {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.client_text p {
+		font-size: 18px;
+	}
+	.client_item {
+		grid-template-columns: 1fr;
+	}
+	.client_image {
+		width: 220px;
+		height: 220px;
+	}
+	.quote {
+		width: 60px;
+		height: 60px;
+	}
+
+	/*  Our Insights section  */
+	.insights_container {
+		gap: 40px;
+		flex-wrap: wrap;
+	}
+	.cards_grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.sidebar {
+		flex: 1;
+	}
+
+	/* footer part */
+	footer {
+		padding-top: 60px;
+	}
+	.footer_content {
+		grid-template-columns: 1fr;
+		justify-content: start;
+	}
+	.footer_content .left_side h2 {
+		font-size: 30px;
+	}
+	.footer_content .right_side ul li a {
+		font-size: 18px;
+	}
+	.footer_grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	footer .copy {
+		grid-template-columns: 1fr;
+		gap: 9px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.text_container .left_side h2 {
+		font-size: 35px;
+	}
+	.text_container {
+		grid-template-columns: 1fr;
+		justify-content: start;
+		gap: 20px;
+	}
+	.header_bottom_text {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.text_container h2 .image {
+		width: 72px;
+		height: 47px;
+		border-radius: 16px;
+	}
+	/* Bannar part */
+	.hero {
+		padding-top: 160px;
+	}
+	.top .text h2::after {
+		width: 174px;
+	}
+	.top .text {
+		padding-right: 80px;
+	}
+	/*  Created by Real People Section  */
+	.people_grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	/* Brand logo */
+	.brand_logo {
+		padding: 70px 0 70px 0;
+	}
+	/* Additional service section */
+	.additional_service_content {
+		padding-top: 80px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	/*  Our Insights section  */
+	.insights_container {
+		gap: 40px;
+		flex-wrap: wrap;
+	}
+	.cards_grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.sidebar {
+		flex: 1;
+	}
+
+	/* footer part */
+	footer {
+		padding-top: 80px;
+	}
+	.footer_content {
+		grid-template-columns: 1fr;
+		justify-content: start;
+	}
+	.footer_content .left_side h2 {
+		font-size: 35px;
+	}
+	.footer_content .right_side ul li a {
+		font-size: 18px;
+	}
+	.footer_grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 40px;
+	}
+	footer .copy {
+		grid-template-columns: 1fr 1fr;
+		gap: 9px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.text_container .left_side h2 {
+		font-size: 33px;
+	}
+
+	/* Bannar part */
+	.hero {
+		padding-top: 224px;
+	}
+	/*  Our Insights section  */
+
+	.cards_grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.text_container {
+		grid-template-columns: 6fr 3fr;
+	}
+}
+
+@media (min-width: 1400px) {
+}
